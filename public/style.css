@@ -1,0 +1,54 @@
+.container {
+    padding: 5px 25px 10px 40px;
+}
+.main {
+    
+    
+    font-family: 'Helvetica', serif;
+    
+    width: 70%;
+}
+
+.main h2  {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Helvetica', serif;
+}
+label{
+
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 15px ;
+    margin: 5px;
+    color: #07273d;
+}
+
+input {
+    
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    
+    font-family: 'Helvetica', serif;
+    width: 100px;
+    background-color: #1b97e9;
+    border: none;
+    color: white;
+    
+    margin: 15px ;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}

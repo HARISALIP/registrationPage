@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form - MongoDB</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-6 main">
+                <form action="/sign_up" method="POST">
+                    <h2>Registration form</h2>
+                    <label for="">Name</label>
+                    <input type="text" class="box" id="name" name="name" placeholder="name" required />
+                    <br>
+                    <label for="">Email id</label>
+                    <input type="email" class="box" id="email" name="email" placeholder="email id" required />
+                    <br>
+                    <label for="">Mobile number</label>
+                    <input type="text" class="box" id="phno" name="phno" placeholder="mobile number" required />
+                    <br>
+                    <label for="">Department</label>
+                    <input type="text" class="box" id="password" name="password" placeholder="department ME/CS/IT" required />
+                    <br>
+                    <label for="">subject</label>
+                    <input type="text" class="box" id="password" name="subject" placeholder="subjects" required />
+                    <br>
+                    <label for="">College Name</label>
+                    <input type="text" class="box" id="password" name="college" placeholder="college name" required />
+                    
+                    <input type="submit" value="Submit" id="submit" />
+                </form>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
